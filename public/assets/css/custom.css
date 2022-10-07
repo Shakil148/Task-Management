@@ -1,0 +1,29 @@
+    #draggable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+    }
+
+    .red {
+        background-color: #ff6347;
+    }
+
+    .white {
+        background-color: #fff;
+    }
+
+    .grey {
+        background-color: #ddd !important;
+    }
+    #todo-item-drop,
+    #inprogress-item-drop,
+    #complete-item-drop {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+        background: #fff;
+        padding: 5px;
+        width: 250px;
+        border-radius: 5px;
+    }
